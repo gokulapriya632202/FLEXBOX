@@ -1,0 +1,520 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.main{
+    background-color: black;
+}
+.main,.main1,.main3, .main4,.main5{
+    width: 100%;
+}
+.sub, .sub1, .sub3, .sub4, .sub5{
+    width: 80%;
+    margin: 0 auto;
+}
+/* first-container */
+p{
+    margin: 0;
+}
+.man{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+}
+.first-top-left{
+    text-align: left;
+    color: grey;
+    font-size: 12px;
+    font-family: tahoma;
+}
+.first-top-right{
+    text-align: right;
+    color: grey;
+    font-size: 12px;
+    font-family: tahoma;
+}
+
+/* 2nd container */
+.image{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    margin-left: 205px;
+}
+.one{
+    cursor: pointer;
+    font-family: tahoma;
+    color: rgb(128, 128, 128);
+    padding: 20px 20px;
+    margin-top: 10px;
+    margin-left: 80%;
+    font-size: 14px;
+}
+.one:hover{
+    background-color: rgb(159, 220, 118);
+    opacity: 0.9;
+    color: white;
+}
+.one:active{
+    opacity: 0.5;
+}
+.five{
+    cursor: pointer;
+    padding: 20px 15px;   
+    font-family: tahoma;
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgb(128, 128, 128);
+}
+.five:hover{
+    background-color: rgb(159, 220, 118);
+    opacity: 0.9;
+    color: white;
+}
+.five:active{
+    opacity: 0.5;
+}
+.two{
+    cursor: pointer;
+    padding: 20px 15px;
+    font-family: tahoma;
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgb(128, 128, 128);
+}
+.two:hover{
+    background-color: rgb(159, 220, 118);
+    opacity: 0.9;
+    color: white;
+}
+.two:active{
+    opacity: 0.5;
+}
+
+.three{
+    padding: 20px 15px;
+    font-family: tahoma;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgb(128, 128, 128);
+}
+.three:hover{
+    background-color: rgb(159, 220, 118);
+    opacity: 0.9;
+    color: white;
+}
+.three:active{
+    opacity: 0.5;
+}
+
+.four{
+    cursor: pointer;
+    padding: 20px 15px;
+    font-family: tahoma;
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgb(128, 128, 128);
+}
+.four:hover{
+    background-color: rgb(159, 220, 118);
+    opacity: 0.9;
+    color: white;
+}
+.four:active{
+    opacity: 0.5;
+}
+li{
+    list-style: none;
+}
+
+/* 3rd container */
+.main2{
+    position: relative;
+
+}
+.main2 img {
+    width: 100%;
+    height: 750px;
+    opacity: 1;
+    
+}
+.sub2{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.sbox1, .sbox2, .sbox3{
+    flex: 1;
+    flex-direction: row;
+    margin: 10px;
+    position: absolute;
+}
+.sbox1, .sbox2, .sbox3{
+    top: 125px;
+    padding: 20px;
+    cursor:pointer;
+    transition: opacity 0.15s;
+    width: 400px;
+    opacity: 0.6;
+}
+.sbox1 {
+    margin-right: 0;
+}
+
+.sbox1:hover{
+    opacity: 1;
+}
+.sbox2{
+    left: 555px;    
+}
+.sbox2:hover{
+    opacity: 1;
+}
+.sbox3{
+    left: 962px;
+}
+.sbox3:hover{
+    opacity: 1;
+}
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+    padding: 40px 40px;
+    margin-top: 0;
+    font-weight: bold;
+    line-height: 25px;
+    background-color: lightgrey;
+    
+}
+.para{
+    font-style: italic;
+    font-family: arial;
+    background-color: white;
+    padding: 15px;
+    line-height: 40px;
+
+}
+.button{
+    padding-top: 40px;
+    padding-bottom: 35px;
+    background-color: rgb(159, 220, 118);
+    transition: opacity 0.15s;
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+    cursor: pointer;
+}
+.button:active{
+    opacity: 0.7;
+}
+
+/* 4th container */
+
+.sub3{
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+p{
+    margin: 0;
+}
+.container{
+    display: flex;
+}
+.container1 .sav{
+    width: 90%;
+}
+.container2 img{
+    width: 100%;
+}
+.container1{
+    position: relative;
+}
+.container2{
+    width: 50%;
+}
+.paragraph{
+    position: absolute;
+    top: 483px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.486);
+    width: 90%;
+    opacity: 0.9;
+}
+.paragraph1{
+    font-family: arial robato;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 25px 90px 20px 90px;
+}
+.paragraph2{
+    font-family: arial;
+    font-size: 18px;
+    padding:0 20px;
+    padding-left: 30px;
+    color: rgba(255, 255, 255, 0.948);
+}
+.but{
+    margin: 25px 200px;
+    padding: 10px;
+    background-color:  rgba(0, 0, 0, 0);
+    border-style: solid;
+    color: rgb(159, 220, 118);
+    border-color: rgb(159, 220, 118);
+}
+.but:hover{
+    opacity: 0.7;
+}
+.but:active{
+    opacity: 0.5;
+}
+.maintopic, .subtopic{
+    font-family: arial tahoma;
+    font-size: 24px;
+    font-weight:600;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    color: rgba(0, 0, 0, 0.811);
+}
+
+
+.st1, .st2, .st3{
+    display: flex;
+    padding-bottom: 30px
+}
+
+.st1, .st2{
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+.tit{
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.tit1{
+    font-family: arial;
+    padding-left: 20px;
+    font-size: 12px;
+    margin-top: 0;
+}
+.tit2{
+    font-family: arial;
+    padding-left: 20px;
+    font-size: 16px;
+    margin:10px 0;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+span{
+    color: rgb(74, 195, 74);
+}
+.bu{
+    margin-left: 20px;
+    padding: 5px;
+    background-color:  rgba(0, 0, 0, 0);
+    border-style: solid;
+    color: rgb(159, 220, 118);
+    border-color: rgb(159, 220, 118);
+    transition: opacity 0.15s;
+}
+.bu:hover{
+    opacity: 0.7;
+    background-color: rgb(129, 222, 67);
+    color: white;
+}
+.bu:active{
+    opacity: 0.5;
+}
+.blah{
+    width: 30%;
+    padding: 6px 6px 0 6px;
+    border: 1px solid gray;
+    height: 132px;
+}
+
+/* 5th container */
+
+.main4{
+    background-color: rgba(0, 0, 0, 0.107);
+}
+.sub4{
+    text-align: center;
+}
+.donec{
+    padding: 60px;
+}
+.donec1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 26px;
+}
+.donec2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.context{
+    display: flex;
+}
+.context img{
+    width: 300px;
+    height: 190px;
+    margin-bottom: 40px;
+}
+.rem{
+    background-color: orange;
+    margin-right: 90px;
+    width: 330px;
+    height: 190px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 30px 5px;
+
+}
+.remo{
+    background-color: skyblue;
+    width: 330px;
+    height: 190px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 30px 5px;
+}
+.butto{
+    margin-top:30px;
+    background-color: orange;
+    padding: 10px;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    transition: opacity 0.15s;
+    cursor: pointer;
+}
+.butto:hover{
+    opacity: 0.7;
+    background-color: white;
+    color: orange;
+}
+.butto:active{
+    opacity: 0.5;
+}
+.butto1{
+    margin-top:30px;
+    background-color: skyblue;
+    padding: 10px;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    transition: opacity 0.15s;
+    cursor: pointer;
+}
+.butto1:hover{
+    opacity: 0.7;
+    background-color: white;
+    color: skyblue;
+}
+.butto1:active{
+    opacity: 0.5;
+}
+
+/* container 5 */
+.main5{
+    background-color: rgba(0, 0, 0, 0.801);
+}
+.subtopic5{
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    color: rgba(211, 211, 211, 0.712);
+    margin-left: 10px;
+    width: 100%;
+    padding-bottom: 40px;
+    margin: 0 auto;
+}
+
+.subtopic5-1, .subtopics-2{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+.ooo, .bbb{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+.ppp{
+    padding-top: 15px;
+    padding-bottom: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.sss{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+.bbb{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+.aaa{
+    padding-top: 15px;
+    color: rgb(129, 222, 67);
+    font-family: Arial, robato;
+    padding-bottom: 10px;
+}
+.nnn{
+    padding: 5px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.167);
+    color: white;
+    border: none;
+    font-family: arial;
+    font-size: 14px;
+}
+.baa{
+    margin-top: 20px ;
+    background-color: rgb(129, 222, 67);
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+.baa:hover{
+    opacity: 0.7;
+    background-color: white;
+    color: green;
+}
+.baa:active{
+    opacity: 0.5;
+}
+.iconimages{
+    margin-top: 60px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    background-color: rgba(255, 255, 255, 0.167);
+    padding: 20px;
+}
+.main6{
+    width: 100%;
+    background-color: black;
+}
+.sub6{
+    width: 82%;
+    margin: 0 auto;
+    color: rgba(211, 211, 211, 0.712);    padding: 30px;
+}
